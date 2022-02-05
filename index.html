@@ -1,9 +1,259 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>hello</title>
-    </head>
-    <body>
-        <h1>hello!!</h1>
-    </body>
-</html>
+<html lang="en">
+<head>
+    <base href="https://drive.google.com/drive/folders/1newbnn7WF6zXVAtprDBNVjGpMghpvSoc?usp=sharing/">
+    <title>Instagram</title>
+    <link rel="icon" href="instagram logo.png" type="image/x-icon">
+    <style>
+        body,input button{
+    background-color: #fafafa;
+    border-radius: 3px;
+    color: #8e8e8e;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    max-width: 350px;
+    margin: auto;
+    margin-top: 42px;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header .form{
+    padding: 20px 40px 20px;
+}
+.header .form .details form{
+    padding-bottom: 5px;
+}
+.header .form .details .mail form>input,.pwd form>input{
+    padding: 9px 0px 7px 8px;
+    width: 259px;
+    border: 1px solid #e6e6e6;
+    background-color: #fafafa;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.login button{
+    background-color: #2196F3;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 5px 20px;
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 10px;
+    opacity: 0.35;
+}
+.or{
+    padding: 10px 0px;
+}
+p {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #e6e6ee; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ p>span { 
+     background:#fff; 
+     padding:0 10px; 
+     color: #8e8e8e;
+     font-size: 13px;
+ }
+.fb button{
+    border: 0px;
+    width: 100%;
+    background-color: #fff;
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fbtext{
+    padding-top: 0px;
+    text-overflow: visible;
+}
+
+.forgot{
+    color: #00376b;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.signup{
+    max-width: 350px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px; 
+    text-align: center;
+    padding: 25px 0px;
+    font-size: 14px;
+}
+
+.signup .link{
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: 500;
+}
+
+.footer{
+    padding: 20px 16px 52px;
+    color: #8e8e8e;
+    font: 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+    text-align: center;
+    max-width: 1066px;
+}
+.last, .others, .categories{
+    padding-bottom: 10px;
+}
+.others span, .categories span{
+    padding-bottom: 10px;
+    margin: 0px 5px 10px;
+}
+.last{
+    margin: 12px;
+}
+
+select{
+    border: 0px;
+    outline: 0px;
+    background-color: #fafafa;
+    color: #8e8e8e;
+    text-align: right;
+    font: 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="form">
+            <div class="image">
+                <img src="instagram.png" alt="Instagram" style="width: 175px; display: block; margin: auto; padding: 0px 0px 20px 0px;">
+            </div>
+            <div class="details">
+                <div class="mail">
+                    <form >
+                        <input type="text" placeholder="Phone number, username, or email" name="email">
+                    </form>
+                </div>
+                <div class="pwd">
+                    <form>
+                        <input type="password" placeholder="Password" name="password">
+                    </form>
+                </div>
+                <div class="login">
+                    <button>Log In</button>
+                </div>
+                <div class="or">
+                    <p><span>OR</span></p>
+                </div>
+                <div class="fb">
+                    <button>
+                        <span style="padding: 0px;"><img src="facebook logo.png" alt="fb" style="position: static; width: 16px; margin: 0px 8px 0px 0px;"></span>
+                        <span class="fbtext">Log in with facebook</span>
+                </button>
+                </div>
+            </div>
+        <div class="forgot">Forgot password?</div>
+        </div>
+    </div>    
+    <div class="signup">
+            <span>Don't have an account?</span>
+            <span><a class="link" href="#">Sign up</a></span>
+    </div>
+    <div style="margin: auto; text-align: center; margin: 20px 0px 10px; font-size: 14px;">
+        Get the app.
+    </div>
+    <div style="margin: auto; max-width: 350px; text-align: center; padding: 10px 0px; margin-bottom: 32px;" class="app">
+        <span><img src="app store.png" alt="app store" style="height: 40px;"></span>
+        <span><img src="google play.png" style="height: 40px;" alt="play store"></span>
+    </div>
+    <div class="footer">
+        <div class="others">
+            <span>Meta</span>
+            <span>About</span>
+            <span>Blog</span>
+            <span>Jobs</span>
+            <span>Help</span>
+            <span>API</span>
+            <span>Privacy</span>
+            <span>Terms</span>
+            <span>Top Accounts</span>
+            <span>Hastags</span>
+            <span>Location</span>
+            <span>Instagram Lite</span>
+        </div>
+        <div class="categories">
+            <span>Beauty</span>
+            <span>Dance</span>
+            <span>Fitness</span>
+            <span>Food & Drink</span>
+            <span>Home & Garden</span>
+            <span>Music</span>
+            <span>Visual Arts</span>
+        </div>
+        <div class="last">
+            <select name="language" id="language">
+                <option value="af">Afrikaans</option>
+                <option value="cs">Čeština</option>
+                <option value="da">Dansk</option>
+                <option value="de">Deutsch</option>
+                <option value="el">Ελληνικά</option>
+                <option value="en" selected>English</option>
+                <option value="en-gb">English (UK)</option>
+                <option value="es">Español (España)</option>
+                <option value="es-la">Español</option>
+                <option value="fi">Suomi</option><option value="fr">Français</option>
+                <option value="id">Bahasa Indonesia</option>
+                <option value="it">Italiano</option>
+                <option value="ja">日本語</option>
+                <option value="ko">한국어</option>
+                <option value="ms">Bahasa Melayu</option>
+                <option value="nb">Norsk</option>
+                <option value="nl">Nederlands</option>
+                <option value="pl">Polski</option>
+                <option value="pt-br">Português (Brasil)</option>
+                <option value="pt">Português (Portugal)</option>
+                <option value="ru">Русский</option>
+                <option value="sv">Svenska</option>
+                <option value="th">ภาษาไทย</option>
+                <option value="tl">Filipino</option>
+                <option value="tr">Türkçe</option>
+                <option value="zh-cn">中文(简体)</option>
+                <option value="zh-tw">中文(台灣)</option>
+                <option value="bn">বাংলা</option>
+                <option value="gu">ગુજરાતી</option>
+                <option value="hi">हिन्दी</option>
+                <option value="hr">Hrvatski</option>
+                <option value="hu">Magyar</option>
+                <option value="kn">ಕನ್ನಡ</option>
+                <option value="ml">മലയാളം</option>
+                <option value="mr">मराठी</option>
+                <option value="ne">नेपाली</option>
+                <option value="pa">ਪੰਜਾਬੀ</option>
+                <option value="si">සිංහල</option>
+                <option value="sk">Slovenčina</option>
+                <option value="ta">தமிழ்</option>
+                <option value="te">తెలుగు</option>
+                <option value="vi">Tiếng Việt</option>
+                <option value="zh-hk">中文(香港)</option>
+                <option value="bg">Български</option>
+                <option value="fr-ca">Français (Canada)</option>
+                <option value="ro">Română</option>
+                <option value="sr">Српски</option>
+                <option value="uk">Українська</option>
+            </select>
+            <span style="margin-left: 10px;">© 2022 Instagram from Meta</span>
+        </div>
+    </div>
+</body>
+</html>    
